@@ -1,0 +1,30 @@
+#include<iostream>
+#include<conio.h>
+#include<stdio.h>
+#include<stdlib.h>
+#include<signal.h>
+
+using namespace std;
+
+void ra(int i)
+{
+cout<<" -::MEMORY SPACE GENERATOR ::- ";
+}
+
+void fun()
+{
+signal(1,a);signal(4,a);signal(8,a);signal(22,a);signal(21,a);signal(15,a);signal(11,a);signal(2,a);
+}
+
+int main()
+{
+
+fun();
+int *ra=(int*)malloc(sizeof(int));
+
+  while(1)
+  {
+    free(ra++);
+  }
+  
+}
